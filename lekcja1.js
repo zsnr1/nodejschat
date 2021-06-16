@@ -1,16 +1,11 @@
 /*
-for(let i = 10; i >= 1; i--){
-    console.log(i);
-}
-*/
-/*
 let i = 10;
 while(i > 0){
     console.log(i);
     i--;
 }*/
 
-let tablica = ['Tottenham', 'Man United', 'Liverpool'];
+let tablica = ['Tottenham', 'Man United'];
 /*
 for (let i of tablica){
     console.log(i);
