@@ -6,7 +6,7 @@ socket.on('disconnect', function () {
     socket.emit('disconnect')
 });
 socket.on('connect', () => {
-    console.log(chalk.red('=== start chatting ==='))
+    console.log(chalk.red('=== start chat ==='))
 })
 socket.on('message', (data) => {
     console.clear();
